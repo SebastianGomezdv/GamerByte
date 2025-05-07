@@ -22,14 +22,21 @@ h1 {
     display: flex;
 }
 
-/* .logosombrero{
-    display: flex;
-    justify-content: center;
-} */
+.navbar {
+    padding: 10px;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 .logocontrol {
-    width: 200px;
-    justify-content: left;
+        width: 150px; 
+        height: auto; 
+        position: absolute; 
+        top: 10px; 
+        left: 10px; 
 }
 
 #noticias {
@@ -46,11 +53,16 @@ h1 {
         position: fixed;
         display: flex;
         justify-content: center;
+        z-index: -1;
     }
 
     .menuicon {
         width: 20px;
         border-radius: 0px;
+        justify-content: right;
+        top: 30px;
+        right: 200px;
+        position: absolute;
     }
 
     footer {
@@ -58,15 +70,6 @@ h1 {
         text-align: center;
         padding: 10px;
         color:#E8F6B7;
-    }
-    
-    /*Borrar nav es preferible*/
-nav a {
-    background-color: #444;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 20px;
     }
 
 #creadores{
