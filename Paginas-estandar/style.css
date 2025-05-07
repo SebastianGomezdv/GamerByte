@@ -1,5 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    background-image: url(/img/31.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #1e1e2f;
     color: #fff;
     margin: 0;
@@ -15,6 +18,46 @@ h1 {
     color: #00ffcc;
 }
 
+.container {
+    display: flex;
+}
+
+.logosombrero{
+    display: flex;
+    justify-content: center;
+}
+
+.logocontrol {
+    width: 200px;
+}
+
+#noticias {
+    padding: 10px;
+    margin: 10px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #logo {
+        width: 1100px;
+        opacity: 05%;
+        position: fixed;
+    }
+
+    .menuicon {
+        width: 20px;
+        border-radius: 0px;
+    }
+
+    footer {
+        background: linear-gradient(90deg, #4a0194,#992fc4,#e75af4);
+        text-align: center;
+        padding: 10px;
+        color:#E8F6B7;
+    }
+    
+    /*Borrar nav es preferible*/
 nav a {
     background-color: #444;
     color: white;
@@ -23,18 +66,15 @@ nav a {
     padding: 10px 20px;
     }
 
-nav a:hover {
-    background-color: #00ffcc;
-    color: #000;
-}
-
-footer {
-    background-color: #333;
+#creadores{
     text-align: center;
-    padding: 10px;
-    color: #aaa;
 }
 
 #creadores{
     text-align: center;
+}
+
+img {
+    width: 20%;
+    border-radius: 10px;
 }
