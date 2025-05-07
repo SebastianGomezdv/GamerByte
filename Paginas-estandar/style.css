@@ -22,13 +22,14 @@ h1 {
     display: flex;
 }
 
-.logosombrero{
+/* .logosombrero{
     display: flex;
     justify-content: center;
-}
+} */
 
 .logocontrol {
     width: 200px;
+    justify-content: left;
 }
 
 #noticias {
@@ -43,6 +44,8 @@ h1 {
         width: 1100px;
         opacity: 05%;
         position: fixed;
+        display: flex;
+        justify-content: center;
     }
 
     .menuicon {
