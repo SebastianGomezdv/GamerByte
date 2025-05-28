@@ -173,3 +173,64 @@ div#formulario-2 {
 #texto-carrusel1:hover {
     color: #4a0194;
 }
+
+#historia {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10%;
+}   
+
+.foro {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 150px;
+}  
+
+#temas-populares {
+    padding-top: 150px;
+    list-style-type: none;
+}
+
+#titulo-temas-populares {
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+ #imgLanding {
+    width: 40%;
+    border-radius: 30px;
+}
+
+p {
+    text-align: justify;
+    max-width: 700px;
+    margin: 16px auto;
+    line-height: 1.7;
+    font-size: 1.15em;
+    color: white;
+    justify-content: center;
+}     
+
+#noticias-amongus {
+ align-items: center;
+ text-align: center;
+ padding-top: 10%;
+}
+
+#videoLanding {
+    border-radius: 30px;
+    width: 40%;
+    height: 415px;
+}
+
+#img-size {
+     width: 40%;
+    border-radius: 30px;
+}
