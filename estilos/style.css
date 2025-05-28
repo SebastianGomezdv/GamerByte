@@ -45,7 +45,7 @@ background-color: #490a66;
     background:url(/images/31.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 section.carrusel {
     padding-top: 200px;
@@ -132,3 +132,20 @@ div#formulario-2 {
     background-color: #e60000;
     color: black;
 }
+
+.carousel-item {
+    transition: none !important;
+}
+
+.img-car {
+    height: 50%;
+    width: auto;
+}
+
+@media screen and (max-width: 425px) {
+
+    .fondo {
+        height: 100vh;
+    }
+}
+    
