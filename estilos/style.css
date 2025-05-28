@@ -1,87 +1,35 @@
-body {
-    background-image: url(/images/31.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #1e1e2f;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-h1 {
-    background-color: #333;
-    padding: 15px;
-    text-align: center;
-    margin: 0;
-    color: #00ffcc;
-}
-
-.container {
-    display: flex;
-}
-
 .navbar {
-    padding: 10px;
-    width: 200px;
+    background: linear-gradient(90deg, #ee6ef5,#57b9ff);
+    margin: 15px;
+    border-radius: 25px;
+}
+.navbar .navbar-toggler {
+    border: none;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .nav-link {
+    color: white;
+    font-size: large;
+}
+.btn-1 {
+    background-color: #4a0194;
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.4s background-color;
+}
+
+.btn-1:hover {
+        background-color: #992fc4;
+    }
+
+.fondo {
+    background:url(/GamerByte-main/images/31.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
     height: 100vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.logocontrol {
-        width: 150px; 
-        height: auto; 
-        position: absolute; 
-        margin-top: 10px;
-        margin-left: 10px;
-        
-}
-
-#noticias {
-    padding: 10px;
-    margin: 10px;    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-
-    #logo {
-        width: 1100px;
-        opacity: 05%;
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        z-index: -1;
-    }
-
-    .menuicon {
-        width: 20px;
-        border-radius: 0px;
-        justify-content: right;
-        top: 30px;
-        right: 200px;
-        position: absolute;
-    }
-
-    footer {
-        background: linear-gradient(90deg, #4a0194,#992fc4,#e75af4);
-        text-align: center;
-        padding: 10px;
-        color:#E8F6B7;
-    }
-
-#creadores{
-    text-align: center;
-}
-
-#creadores{
-    text-align: center;
-}
-
-img {
-    width: 20%;
-    border-radius: 10px;
 }

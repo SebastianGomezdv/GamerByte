@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio - GamerByte </title>
     <link rel="stylesheet" href="/estilos/style.css">
+    <script src="https://kit.fontawesome.com/e9073f8900.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
 </head>
-<header>
-    <div class="">
-        <img class="logosombrero" id="logo" src="/images/logo sombrero.png" alt="">
-    </div>
-    <div class="container">
-        
 
-    </div>
-    <nav class="navbar">
-        <section class="logocontrol">
-            <a href="index.html"><img src="/images/logo control.png" alt="">
-            <img src="/images/menu icon.png" class="menuicon" alt="">    
-            </a>
-            </section>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Historia.html">Historia</a></li>
-            <li><a href="Foro.html">Foro</a></li>
-            <li><a href="Login.html">Iniciar Sesion</a></li>
-            <li><a href="Crear-usuario.html">Registrarse</a></li>
-            <li><a href="Creadores.html">Creadores</a></li>
-        </ul>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand me-auto" href="/Paginas-estandar/index.html"><img
+                    src="/images/logo control.png" width="90px" height="90px" alt=""></a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="/Paginas-estandar/Foro.html">Foro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2"
+                                href="/Paginas-estandar/Historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2"
+                                href="/Paginas-estandar/Creadores.html">Creadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="/Paginas-estandar/Login.html">Iniciar
+                                sesion</a>
+                        </li>
+                </div>
+            </div>
+            <a class="btn-1" href="/Paginas-estandar/Crear-usuario.html">Registarse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
     </nav>
-</div>
-    <h2>Últimas Noticias del Mundo Gamer</h2>
-    <br>
-    <br>
-    <section id="noticias">
-        <img src="/images/amongus.jpg" alt="Among Us en 3D">
-        <h4>Among Us llega en 3D</h4>
-            <p>🎮Innersloth anunció una nueva versión en primera persona con juego cruzado entre PC y realidad virtual</p>
-        <img src="/images/gta6.jpg" alt="GTA 6">
-        <h4>¿Cuándo sale el GTA 6?</h4>
-        <p>🔥 Luego de varios meses de espera y de múltiples rumores, Rockstar Games ha confirmado que Grand Theft Auto VI, GTA VI, se lanzará el 26 de mayo de 2026</p>
-        <img src="/images/ColombiaFIFA.jpg" alt="FIFA">
-        <h4>En Colombia se está desarrollando un nuevo videojuego de FIFA</h4>
-        <p>🕹️ El proyecto, liderado por Mythical Games, cuenta con la colaboración directa del estudio colombiano Bacon Games, ubicado en Bogotá, que se ha convertido en una de las piezas clave de esta ambiciosa apuesta móvil.</p>
-    </section>
-    <footer>
-        <p>© 2025 GamerByte</p>
-    </footer>
+    <section class="fondo"></section>
 </body>
+<footer>
+    <p>Â© 2025 GamerByte</p>
+</footer>
+
 </html>
