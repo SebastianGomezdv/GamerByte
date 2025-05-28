@@ -152,3 +152,24 @@ div#formulario-2 {
 #fondo-login {
     height: 100vh;
 }
+
+#form {
+    width: 45%;
+}
+
+#texto-carrusel1 { 
+    color: white;
+    font-weight: bold;
+}
+
+#texto-carrusel { 
+  color: white;
+}
+
+#linea-enlace { 
+    text-decoration: none;
+}
+
+#texto-carrusel1:hover {
+    color: #4a0194;
+}
